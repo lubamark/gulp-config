@@ -5,13 +5,13 @@ body {
   min-width:$mobile-width;
   box-sizing: border-box;
 
-  font-family:'', Arial, sans-serif;
+  font-family: 'Clear sans', Arial, sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 24px;
-  color: $black;
-  font-weight: 400;
-  letter-spacing: 0.025rem;
+  color: #fff;
+  background-color: pink;
+
 }
 
 *, *::before, *::after {
@@ -38,4 +38,27 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+svg {
+  fill: #fff;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+  li {
+    margin-right: 5px;
+  }
+}
+
+main {
+  max-width: $tablet-width;
+  margin: 10px auto;
+  text-align: center;
 }

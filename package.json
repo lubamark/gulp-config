@@ -1,11 +1,11 @@
 {
-  "name": "gulp-scss",
+  "name": "Gulp-config",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:lubamark/gulp-config.git"
   },
   "author": "",
   "license": "ISC",
